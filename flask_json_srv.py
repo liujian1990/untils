@@ -12,4 +12,4 @@ def service():
     return "Web OK."
 
 if __name__ == 'main':
-    app.run('0.0.0.0', '8001')
+    app.run(host='0.0.0.0', port='8001')
